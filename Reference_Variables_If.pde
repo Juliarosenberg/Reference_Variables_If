@@ -1,4 +1,3 @@
-// add your Reference_Variable_If code here
 int X= 100;
 int Y =150;
 int bounce= 5;
@@ -37,4 +36,6 @@ if (Y > 900){
 
   fill(255, 153, 153);
   ellipse(200, X, 150, 150);
+  
+  save("julia.variable.refrence.draw.pmg");
 }
